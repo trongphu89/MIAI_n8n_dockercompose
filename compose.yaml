@@ -25,7 +25,7 @@ services:
     environment:
       - N8N_SECURE_COOKIE=false
       - GENERIC_TIMEZONE=Asia/Ho_Chi_Minh
-      - N8N_EDITOR_BASE_URL=${EXTERNAL_IP}
+      - N8N_EDITOR_BASE_URL=${n8n.trongphu.com}
     ports:
       - "80:5678"
     volumes:
