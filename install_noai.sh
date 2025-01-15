@@ -15,6 +15,6 @@ sudo chmod -R 755 vol_n8n
 echo "--------- 🔴 Finish creating folder -----------"
 echo "--------- 🟢 Start docker compose up  -----------"
 wget https://raw.githubusercontent.com/trongphu89/MIAI_n8n_dockercompose/refs/heads/main/compose_noai.yaml -O compose.yaml
-export EXTERNAL_IP=n8n.trongphu.com
+export EXTERNAL_IP=https://n8n.trongphu.com
 docker compose up -d
 echo "--------- 🔴 Finish! Wait a few minutes and test in browser at url $EXTERNAL_IP for n8n UI -----------"
